@@ -1,0 +1,128 @@
+/* font-family: 'Montserrat', sans-serif; Montserat Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font-family: 'Montserrat', sans-serif; Montserat SemiBold 600 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+header {
+    padding: 10px;
+    background-color: black;
+    border-width: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: cyan;
+    font-size: 30px;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+    height: 50vh;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.navLink {
+    transition: ease-in 0.2s;
+}
+
+.navLink:hover {
+    color: yellow;
+}
+
+.news {
+    width: 75vw;
+    border-radius: 15px;
+}
+
+.novetly {
+    transition: ease-in 0.5s;
+    border: 3px solid darkgrey;
+    border-radius: 10px;
+    margin: 10px;
+    word-break: break-word;
+    text-align: justify;
+}
+
+.novetly:hover {
+    border-color: yellow;
+}
+
+.word-break {
+    word-break: break-word;
+}
+
+.width-50 {
+    width: 50vw;
+}
+
+.width-75 {
+    width: 75vw;
+}
+
+.admin-link {
+    border-radius: 10px;
+    transition: 0.2s linear;
+}
+
+.admin-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.edit-del-btn {
+    margin-right: 0.5rem;
+    padding: 5px;
+    background-color: black;
+    transition: 0.1s linear;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.edit-del-btn:active {
+    background-color: red;
+}
+
+.edit-del-btn:hover {
+    color: white;
+}
+
+.input-new-novelty {
+    color: white;
+    width: 75vw;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.send-btn {
+    border-radius: 10px;
+    color: darkgray;
+    background-color: black;
+    transition: 0.2s linear;
+    border: 2px solid darkgray;
+}
+
+.send-btn:hover {
+    border-color: greenyellow;
+    color: greenyellow;
+}
+
+.send-btn:active {
+    background-color: greenyellow;
+    color: black;
+}
